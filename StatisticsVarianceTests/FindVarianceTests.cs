@@ -6,14 +6,26 @@ using System.Text;
 
 namespace StatisticsVariance.Tests
 {
-    public static FindVariance findVariance = new FindVariance();
+    
     [TestClass()]
     public class FindVarianceTests
     {
+        public static FindVariance findVariance = new FindVariance();
         [TestMethod()]
-        public void VarianceTest()
+        public void VarianceIntTest()
         {
-            Assert.Fail();
+            int[] values = { 2, 4, 6, 8 };
+            double variance = findVariance.Variance(values);
+            Assert.AreEqual(5, Helpers.Rounding.RoundFiveDecimals(variance));
+            
+        }
+        [TestMethod()]
+        public void VarianceDoubleTest()
+        {
+            double[] values = { 2.0, 3.0, 4.0 };
+            double variance = findVariance.Variance(values);
+            Assert.AreEqual(0.66667, Helpers.Rounding.RoundFiveDecimals(variance));
+
         }
     }
 }
