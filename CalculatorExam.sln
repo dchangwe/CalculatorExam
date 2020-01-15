@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subtraction", "Subtraction\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubtractionTests", "SubtractionTests1\SubtractionTests.csproj", "{ED0BA895-ECBD-416A-9CF5-CE957E336945}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Division", "Division\Division.csproj", "{423394CA-7F99-4B34-BA04-DEEE9ABEFCBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{ED0BA895-ECBD-416A-9CF5-CE957E336945}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED0BA895-ECBD-416A-9CF5-CE957E336945}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED0BA895-ECBD-416A-9CF5-CE957E336945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423394CA-7F99-4B34-BA04-DEEE9ABEFCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423394CA-7F99-4B34-BA04-DEEE9ABEFCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423394CA-7F99-4B34-BA04-DEEE9ABEFCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423394CA-7F99-4B34-BA04-DEEE9ABEFCBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
