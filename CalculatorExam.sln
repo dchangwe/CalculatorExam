@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorExam", "CalculatorExam\CalculatorExam.csproj", "{81A4EB1C-43C0-42C8-B426-F8C85F76934A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorExam", "CalculatorExam\CalculatorExam.csproj", "{81A4EB1C-43C0-42C8-B426-F8C85F76934A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtraction", "Subtraction\Subtraction.csproj", "{1D267FE7-92C2-4B42-AF27-28534BF012EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{81A4EB1C-43C0-42C8-B426-F8C85F76934A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81A4EB1C-43C0-42C8-B426-F8C85F76934A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81A4EB1C-43C0-42C8-B426-F8C85F76934A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D267FE7-92C2-4B42-AF27-28534BF012EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D267FE7-92C2-4B42-AF27-28534BF012EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D267FE7-92C2-4B42-AF27-28534BF012EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D267FE7-92C2-4B42-AF27-28534BF012EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
