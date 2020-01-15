@@ -1,7 +1,6 @@
 ﻿using System;
-using StatsOperations;
 
-namespace StatisticsVariance
+namespace StatsVariance
 {
     public class FindVariance : IFindVariance
     {
@@ -12,4 +11,3 @@ namespace StatisticsVariance
             return result;
         }
     }
-}
