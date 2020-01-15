@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StatisticsVariance
+namespace StatsVariance
 {
-    public interface  IFindVariance
+    public interface IFindVariance
     {
         public double Variance(dynamic arrayA);
 
